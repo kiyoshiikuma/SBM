@@ -14,7 +14,7 @@ If descriptions of physical conventions or APIs disagree, check `conventions.rst
 
 ## Workspace files and design
 
-- Maintain the shared guides in `agent_workspace/` and the root entry files `AGENTS.md` and `CLAUDE.md` in version control. Keep `.venv/` and machine-specific artifacts local; use `.git/info/exclude` for local exclusions. See Handbook Section 1 for setup instructions.
+- Maintain the shared guides in `agent_workspace/` in version control. Keep `.venv/` and machine-specific artifacts local; use `.git/info/exclude` for local exclusions. See Handbook Section 1 for setup instructions.
 - For each new systematic effect, use the template to save a specification in `agent_workspace/`. Define the ideal TOD, TOD with the error, perturbation, spin decomposition, units and signs, approximation order, omitted cross terms, and independent validation before implementation.
 - Record the reference equations, implementation module, public API, templates, and components that cannot be absorbed. Adding effect models does not automatically generate cross terms between them.
 

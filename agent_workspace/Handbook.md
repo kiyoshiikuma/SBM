@@ -8,7 +8,7 @@ It applies to yusuke-takase/SBM version 0.4.2 at the installation commit 780b047
 
 Keep this document in agent_workspace/. Unless stated otherwise, code paths and commands in this document are relative to the repository root.
 
-The shared guides in agent_workspace/ and the root-level AGENTS.md and CLAUDE.md entry files are versioned repository documentation. Keep .venv/ and machine-specific artifacts out of commits. Python 3.12's venv does not create its own .gitignore, so add the virtual environment to the local exclusion file once per clone.
+The shared guides in agent_workspace/ are versioned repository documentation. Keep .venv/ and machine-specific artifacts out of commits. Python 3.12's venv does not create its own .gitignore, so add the virtual environment to the local exclusion file once per clone.
 
 ```sh
 printf '%s\n' '/.venv/' >> .git/info/exclude

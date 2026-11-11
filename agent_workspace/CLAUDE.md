@@ -1,8 +1,8 @@
 # CLAUDE.md
 
-Entry point for Claude. Shared procedures are maintained in [Agent.md](Agent.md); detailed physical models and validation criteria are in [Handbook.md](Handbook.md). Read both before starting work.
+Development guide for Claude. Shared procedures are maintained in [Agent.md](Agent.md); detailed physical models and validation criteria are in [Handbook.md](Handbook.md). Read both before starting work.
 
-Code paths and commands are relative to the repository root. Maintain `agent_workspace/` and the root entry guides in version control. Keep `.venv/` and machine-specific artifacts local.
+Code paths and commands are relative to the repository root. Maintain the shared guides in `agent_workspace/` in version control. Keep `.venv/` and machine-specific artifacts local.
 
 When working on a new systematic effect, follow this sequence:
 
@@ -14,4 +14,4 @@ When working on a new systematic effect, follow this sequence:
 
 If conventions disagree, check [conventions.rst](../docs/source/conventions.rst) and the code, then update the Handbook as needed. Follow Agent.md for the language of code, docstrings, and upstream documentation, and for completion criteria. Avoid duplicating equations, detailed validation criteria, or baseline numbers in this file.
 
-Maintain this guide in `agent_workspace/CLAUDE.md`; the root `CLAUDE.md` points here.
+Maintain this guide in `agent_workspace/CLAUDE.md`, alongside `Agent.md` and `Handbook.md`.
